@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aplikasi Pemesanan Tiket Travel</h1>
+    <div class="main-container">
+        <div class="container">
+            <div class="nama">
+                <p>Nama</p>
+                <input type="text" id="inama">
+            </div>
+
+            <div class="tujuan">
+                <p>Tujuan</p>
+                <select id="itujuan">
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Tasikmalaya">Tasikmalaya</option>
+                    <option value="Bekasi">Bekasi</option>
+                    <option value="Bogor">Bogor</option>
+                    <option value="Depok">Depok</option>
+                    <option value="Sukabumi">Sukabumi</option>
+                </select>
+            </div>
+
+            <div class="jumlahTiket">
+                <p>
+                    Jumlah Tiket
+                </p>
+                <select id="ijumlah">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <div class="member">
+                <p>Member</p>
+                <input type="checkbox" value="1" id="imember">Member
+            </div>
+
+            <input class="button-pesan" type="button" value="Pesan" onclick="hitung()">
+        </div>
+
+        <div class="container2">
+            <div class="outputNama">
+                <p>Nama</p>
+                <input type="text" id="onama">
+            </div>
+        
+            <div class="outputTujuan">
+                <p>Tujuan</p>
+                <input type="text" id="otujuan">
+            </div>
+
+            <div class="outputJumlahTiket">
+                <p>Jumlah Tiket</p>
+                <input type="text" id="ojumlah">
+            </div>
+
+            <div class="hargaTiket">
+                <p>Harga Tiket</p>
+                <input type="text" id="oharga">
+            </div>
+
+            <div class="diskon">
+                <p>
+                    <p>Diskon</p>
+                    <input type="text" id="odiskon">
+                </p>
+            </div>
+
+            <div class="totalHarga">
+                <p>Total Harga</p>
+                <input type="text" id="ototal">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
